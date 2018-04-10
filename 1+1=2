@@ -1,0 +1,12 @@
+[                                 Push
+  Aa:Ab:a+Sb=S(a+b)               Axiom B, Premise
+  Aa:a+S0=S(a+0)                  Specification
+  Aa:a+0=a                        Axiom A
+  Aa:a+S0=Sa                      Transitivity
+]                                 Pop
+<Aa:Ab:a+Sb=S(a+b) U Aa:a+S0=Sa>  Fantasy rule
+[                                 Push
+  Aa:a+S0=Sa                      Premise
+  S0+S0=SS0                       Specification
+]                                 Pop
+<Aa:a+S0=Sa U S0+S0=SS0>          Fantasy rule
