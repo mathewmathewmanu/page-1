@@ -1,0 +1,9 @@
+[                                             Push
+  Aa:Ab:a*Sb=a+(a*b)                          Axiom D, Premise
+  Aa:a*S0=a+(a*0)                             Specification
+  Aa:a*0=0                                    Axiom C
+  Aa:a*S0=a+0                                 Transitivity
+  Aa:a+0=a                                    Axiom A
+  Aa:a*S0=a                                   Transitivity
+]                                             Pop
+<Aa:Ab:a*Sb=a+(a*b) U Aa:a*S0=a>              Fantasy rule
